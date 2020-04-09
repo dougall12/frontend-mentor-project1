@@ -14,6 +14,7 @@ html {
   --background-top: hsl(225, 100%, 98%);
   --background-main: hsl(0, 0%, 100%);
   --card-background: hsl(227, 47%, 96%);
+  --card-background-hover: hsl(228, 45%, 90%);
 }
 
 html.dark {
@@ -22,6 +23,7 @@ html.dark {
   --background-top: hsl(232, 19%, 15%);
   --background-main: hsl(230, 17%, 14%);
   --card-background: hsl(228, 28%, 20%);
+  --card-background-hover: hsl(229, 26%, 29%);
 }
 * {
   box-sizing: border-box;
@@ -307,7 +309,14 @@ section.overview div.overview-cards p.arrows.down {
 section.overview div.overview-cards p.arrows.up {
   color: hsl(163, 72%, 41%);
 }
-
+div.counter-card:hover {
+  background-color: var(--card-background-hover);
+  cursor: pointer;
+}
+section.overview div.overview-cards:hover {
+  background-color: var(--card-background-hover);
+  cursor: pointer;
+}
 /* Backgrounds */
 
 .header-background {
