@@ -19,7 +19,7 @@
     <!-- Backgrounds -->
     <div class="header-background"></div>
     <div class="body-background"></div>
-
+<div class="container">
 
 <!-- Heading -->
       <header >
@@ -29,7 +29,9 @@
         </div>
         <div class="toggle-switch">
           <label for="toggle">Dark Mode</label>
-          <input type="checkbox" />
+          <label class="switch"><input type="checkbox" checked />
+            <span id="slider" class="slider round "></span>
+          </label>
         </div>
       </header>
 
@@ -37,29 +39,31 @@
 
       <!-- Social Counter Cards -->
       <section class="social-counters">
-        <div class="counter-card">
-          <p><img src="./images/icon-facebook.svg" alt="facebook-icon">@nathanf</p>
+        <div class="counter-card facebook">
+          <div class="tag-container"><img src="./images/icon-facebook.svg" alt="facebook-icon"><p class="tags">@nathanf</p></div>
           <h2>1987</h2>
-          <p>Followers</p>
-          <p><img src="./images/icon-up.svg" alt="up-arrow">12 Today</p>
+          <p class="under-header">Followers</p>
+          <div class="arrow-container"><img src="./images/icon-up.svg" alt="up-arrow"><p class="arrows up">12 Today</p></div>
         </div>
-        <div class="counter-card">
-          <p><img src="./images/icon-twitter.svg" alt="twitter-icon">@nathanf</p>
+        <div class="counter-card twitter">
+          <div class="tag-container"><img src="./images/icon-twitter.svg" alt="twitter-icon"><p class="tags">@nathanf</p></div>
           <h2>1044</h2>
-          <p>Followers</p>
-          <p><img src="./images/icon-up.svg" alt="up-arrow">99 Today</p>
+          <p class="under-header">Followers</p>
+          <div class="arrow-container"><img src="./images/icon-up.svg" alt="up-arrow"><p class="arrows up">99 Today</p></div>
         </div>
-        <div class="counter-card">
-          <p><img src="./images/icon-instagram.svg" alt="insta-icon">@realnathanf</p>
+        <div class="instagram">
+        <div class="counter-card no-border">
+          <div class="tag-container"><img src="./images/icon-instagram.svg" alt="insta-icon"><p class="tags">@realnathanf</p></div>
           <h2>11k</h2>
-          <p>Followers</p>
-          <p><img src="./images/icon-up.svg" alt="up-arrow">1099 Today</p>
+          <p class="under-header">Followers</p>
+          <div class="arrow-container"><img src="./images/icon-up.svg" alt="up-arrow"><p class="arrows up">1099 Today</p></div>
         </div>
-        <div class="counter-card">
-          <p><img src="./images/icon-youtube.svg" alt="youtube-icon">Nathan F.</p>
+      </div>
+        <div class="counter-card youtube">
+          <div class="tag-container"><img src="./images/icon-youtube.svg" alt="youtube-icon"><p class="tags">Nathan F.</p></div>
           <h2>8239</h2>
-          <p>Subscribers</p>
-          <p><img src="./images/icon-down.svg" alt="down-arrow">144 Today</p>
+          <p class="under-header">Subscribers</p>
+          <div class="arrow-container"><img src="./images/icon-down.svg" alt="down-arrow"><p class="arrows down">144 Today</p></div>
         </div>
       </section>
 
@@ -122,6 +126,8 @@
        <p><img src="./images/icon-down.svg" alt="down-arrow">  12%</p>
      </div>
    </section>
+
+  </div>
 
              
              
