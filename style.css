@@ -34,8 +34,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
+
   background-color: var(--background-main);
 }
 
